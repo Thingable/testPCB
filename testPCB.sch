@@ -1,0 +1,219 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:testPCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1
+U 1 1 5AB654F7
+P 4100 5000
+F 0 "R1" V 4180 5000 50  0000 C CNN
+F 1 "R" V 4100 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0201_NoSilk" V 4030 5000 50  0001 C CNN
+F 3 "" H 4100 5000 50  0001 C CNN
+	1    4100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5AB6554F
+P 4300 5000
+F 0 "R2" V 4380 5000 50  0000 C CNN
+F 1 "R" V 4300 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 4230 5000 50  0001 C CNN
+F 3 "" H 4300 5000 50  0001 C CNN
+	1    4300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5AB655C1
+P 4500 5000
+F 0 "R3" V 4580 5000 50  0000 C CNN
+F 1 "R" V 4500 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4430 5000 50  0001 C CNN
+F 3 "" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5AB655C7
+P 4700 5000
+F 0 "R4" V 4780 5000 50  0000 C CNN
+F 1 "R" V 4700 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4630 5000 50  0001 C CNN
+F 3 "" H 4700 5000 50  0001 C CNN
+	1    4700 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5AB65689
+P 4900 5000
+F 0 "R5" V 4980 5000 50  0000 C CNN
+F 1 "R" V 4900 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4830 5000 50  0001 C CNN
+F 3 "" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 5AB6568F
+P 5100 5000
+F 0 "R6" V 5180 5000 50  0000 C CNN
+F 1 "R" V 5100 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1812" V 5030 5000 50  0001 C CNN
+F 3 "" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5AB65695
+P 5300 5000
+F 0 "R7" V 5380 5000 50  0000 C CNN
+F 1 "R" V 5300 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010" V 5230 5000 50  0001 C CNN
+F 3 "" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 5AB6569B
+P 5500 5000
+F 0 "R8" V 5580 5000 50  0000 C CNN
+F 1 "R" V 5500 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 5430 5000 50  0001 C CNN
+F 3 "" H 5500 5000 50  0001 C CNN
+	1    5500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J1
+U 1 1 5AB66805
+P 6000 5200
+F 0 "J1" H 6000 5500 50  0000 C CNN
+F 1 "Conn_01x06" H 6000 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 6000 5200 50  0001 C CNN
+F 3 "" H 6000 5200 50  0001 C CNN
+	1    6000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TMS470R1B768 U1
+U 1 1 5AB66A60
+P 2150 4350
+F 0 "U1" H 800 8050 50  0000 L CNN
+F 1 "TMS470R1B768" H 2950 8050 50  0000 L CNN
+F 2 "SMD_Packages:BGA-144-1mm" H 2150 4250 50  0001 C CNN
+F 3 "" H 2150 4250 50  0001 C CNN
+	1    2150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA1284P-AU U2
+U 1 1 5AB64E4E
+P 4850 2600
+F 0 "U2" H 4000 4480 50  0000 L BNN
+F 1 "ATMEGA1284P-AU" H 5250 650 50  0000 L BNN
+F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 4850 2600 50  0001 C CIN
+F 3 "" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 5AB6863B
+P 6150 4400
+F 0 "R9" V 6230 4400 50  0000 C CNN
+F 1 "R" V 6150 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6080 4400 50  0001 C CNN
+F 3 "" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 5AB686C3
+P 6350 4400
+F 0 "R10" V 6430 4400 50  0000 C CNN
+F 1 "R" V 6350 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6280 4400 50  0001 C CNN
+F 3 "" H 6350 4400 50  0001 C CNN
+	1    6350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 5AB68721
+P 6550 4400
+F 0 "R11" V 6630 4400 50  0000 C CNN
+F 1 "R" V 6550 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6480 4400 50  0001 C CNN
+F 3 "" H 6550 4400 50  0001 C CNN
+	1    6550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 5AB68727
+P 6750 4400
+F 0 "R12" V 6830 4400 50  0000 C CNN
+F 1 "R" V 6750 4400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6680 4400 50  0001 C CNN
+F 3 "" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4250 6350 4250
+Wire Wire Line
+	6150 4550 6350 4550
+Wire Wire Line
+	6550 4250 6750 4250
+Wire Wire Line
+	6550 4550 6750 4550
+$EndSCHEMATC
